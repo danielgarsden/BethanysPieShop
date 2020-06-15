@@ -44,7 +44,7 @@ namespace BethanysPieShop
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSession();
             app.UseRouting();
